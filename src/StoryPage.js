@@ -3,56 +3,56 @@ import './StoryPage.css';
 
 const photos = [
   {
-    src: '/1.JPG',
+    src: `${process.env.PUBLIC_URL}/1.JPG`,
     caption: "I know you're angry with me right now...",
     sub: "But before you close this, just give me a chance. Scroll down slowly and let me remind you of something beautiful...",
     emoji: "🥺",
     tag: "Where It All Began"
   },
   {
-    src: '/2.JPG',
+    src: `${process.env.PUBLIC_URL}/2.JPG`,
     caption: "Remember this day? Just two people, no worries...",
     sub: "We didn't know back then that this simple moment would become one of my most precious memories. Your smile that day... I still remember it clearly.",
     emoji: "😊",
     tag: "The Good Old Days"
   },
   {
-    src: '/3.JPG',
+    src: `${process.env.PUBLIC_URL}/3.JPG`,
     caption: "We were always the crazy ones!",
     sub: "Nobody else would do the things we did together. From winning toys to laughing until our stomachs hurt - you made every boring day an adventure. That's your superpower, Piumi.",
     emoji: "🤪",
     tag: "Partners In Crime"
   },
   {
-    src: '/4.JPG',
+    src: `${process.env.PUBLIC_URL}/4.JPG`,
     caption: "Those dinner dates we'll never forget...",
     sub: "Late night conversations about life, dreams, and everything in between. You always listened, always understood. Not everyone finds a friend like that. I was lucky enough to find you.",
     emoji: "🌙",
     tag: "Midnight Memories"
   },
   {
-    src: '/5.JPG',
+    src: `${process.env.PUBLIC_URL}/5.JPG`,
     caption: "Every adventure was better with you",
     sub: "Whether we were exploring new places or just walking around doing nothing - it didn't matter where we went. What mattered was that we were together. You turned every trip into a story.",
     emoji: "✈️",
     tag: "Adventures Together"
   },
   {
-    src: '/6.JPG',
+    src: `${process.env.PUBLIC_URL}/6.JPG`,
     caption: "And then you went and made everyone proud...",
     sub: "Watching you in that red gown, standing tall and confident - I felt so proud it almost hurt. You worked so hard for this, and you absolutely deserved every bit of it.",
     emoji: "🎓",
     tag: "Proud Moment"
   },
   {
-    src: '/7.JPG',
+    src: `${process.env.PUBLIC_URL}/7.JPG`,
     caption: "Your graduation - the day I was proudest of you",
     sub: "Standing next to you on that day meant the world to me. You've come so far, achieved so much. This wasn't just your achievement - it was proof that hard work and a beautiful soul always win.",
     emoji: "🏆",
     tag: "Achievement Unlocked"
   },
   {
-    src: '/IMG_9254.jpg',
+    src: `${process.env.PUBLIC_URL}/IMG_9254.jpg`,
     caption: "Look at you... absolutely stunning",
     sub: "This photo says everything. Confident, beautiful, unstoppable. This is the Piumi I know - someone who lights up every room, every photo, every life she touches. The world is better because you're in it.",
     emoji: "👑",
